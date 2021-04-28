@@ -18,21 +18,20 @@ class _FormularioContatoState extends State<FormularioContato> {
   final _form = GlobalKey<FormState>();
 
   final Map<String, Object> _formData = {};
-
-  void _loadFormUser(User user) {
-    if (user != null) {
-      _formData['id'] = user.id;
-      _formData['name'] = user.name;
-      _formData['email'] = user.email;
-      _formData['AvatarUrl'] = user.avatarUrl;
-    }
-  }
+//TODO
+  // void _loadFormUser(User user) {
+  //   if (user != null) {
+  //     _formData['id'] = user.id;
+  //     _formData['name'] = user.name;
+  //     _formData['email'] = user.email;
+  //     _formData['AvatarUrl'] = user.avatarUrl;
+  //   }
+  // }
 
   @override
   Widget build(BuildContext context) {
     final Users users = Provider.of(context);
-     User user;
-    _loadFormUser(user);
+
     return Scaffold(
       appBar: AppBar(
         title: Text('New contact'),
