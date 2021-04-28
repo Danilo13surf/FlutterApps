@@ -1,7 +1,6 @@
 import 'package:crud/components/functions.dart';
 import 'package:crud/models/users.dart';
 import 'package:crud/providers/users.dart';
-import 'package:crud/screens/form_user.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

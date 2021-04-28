@@ -31,8 +31,8 @@ class _FormularioContatoState extends State<FormularioContato> {
   @override
   Widget build(BuildContext context) {
     final Users users = Provider.of(context);
-
-// _loadFormUser(user);
+     User user;
+    _loadFormUser(user);
     return Scaffold(
       appBar: AppBar(
         title: Text('New contact'),
