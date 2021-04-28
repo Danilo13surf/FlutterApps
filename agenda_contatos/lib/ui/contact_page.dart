@@ -134,13 +134,13 @@ class _ContactPageState extends State<ContactPage> {
             title: Text("Descartar Alterações?"),
             content: Text("Se sair as alterações serão perdidas."),
             actions: <Widget>[
-              TextButton(
+              FlatButton(
                 child: Text("Cancelar"),
                 onPressed: (){
                   Navigator.pop(context);
                 },
               ),
-              TextButton(
+              FlatButton(
                 child: Text("Sim"),
                 onPressed: (){
                   Navigator.pop(context);
