@@ -16,7 +16,7 @@ class _HomePageState extends State<HomePage> {
 
   ContactHelper helper = ContactHelper();
 
-  List<Contact> contacts = List();
+  List<Contact> contacts = [];
 
   @override
   void initState() {
@@ -128,7 +128,7 @@ class _HomePageState extends State<HomePage> {
                   children: <Widget>[
                     Padding(
                       padding: EdgeInsets.all(10.0),
-                      child: FlatButton(
+                      child: TextButton(
                         child: Text("Ligar",
                           style: TextStyle(color: Colors.red, fontSize: 20.0),
                         ),
@@ -140,7 +140,7 @@ class _HomePageState extends State<HomePage> {
                     ),
                     Padding(
                       padding: EdgeInsets.all(10.0),
-                      child: FlatButton(
+                      child: TextButton(
                         child: Text("Editar",
                           style: TextStyle(color: Colors.red, fontSize: 20.0),
                         ),
@@ -152,7 +152,7 @@ class _HomePageState extends State<HomePage> {
                     ),
                     Padding(
                       padding: EdgeInsets.all(10.0),
-                      child: FlatButton(
+                      child: TextButton(
                         child: Text("Excluir",
                           style: TextStyle(color: Colors.red, fontSize: 20.0),
                         ),
