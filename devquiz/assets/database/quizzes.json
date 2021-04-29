@@ -1,46 +1,190 @@
 [
-    {
-        "title": "NLW 5 Flutter",
-        "imagem": "blocks",
-        "questionAnswered": 1,
-        "level": "facil",
-        "questions": [
-            {
-                "title": "Está curtindo o Flutter?",
-                "answers": [
-                    {
-                        "title": "Estou curtindo"
-                    },
-                    {
-                        "title": "Ta bom e tal"
-                    },
-                    {
-                        "title": "Oloco"
-                    },
-                    {
-                        "title": "Ai sim",
-                        "isRight": true
-                    }
-                ]
-            },
-            {
-                "title": "Está curtindo o Flutter?",
-                "answers": [
-                    {
-                        "title": "Estou curtindo"
-                    },
-                    {
-                        "title": "Ta bom e tal"
-                    },
-                    {
-                        "title": "Oloco"
-                    },
-                    {
-                        "title": "Ai sim",
-                        "isRight": true
-                    }
-                ]
-            }
+  {
+    "title": "Mobile",
+    "imagem": "blocks",
+    "questionAnswered": 1,
+    "level": "facil",
+    "questions": [
+      {
+        "title": "A linguagem de programação considerada como \"nativa\" dos ambientes Android é",
+        "answers": [
+          {
+            "title": "IOS"
+          },
+          {
+            "title": "C#"
+          },
+          {
+            "title": "Kotlin"
+          },
+          {
+            "title": "Java",
+            "isRight": true
+          }
         ]
-    }
+      },
+      {
+        "title": "Sobre desenvolvimento de apps móveis c/ Android utilizando a ling. Java, analise as afirmativas a seguir.\nI. Uma Activity, dentre outras funcionalidades, é responsável por criar uma tela onde é exibida a interface gráfica em um aplicativo Android. II. Considerando o ciclo de vida de uma Activity, o método onCreate(Bundle savedInstanceState) é chamado quando a Activity é criada. III. É possível passar informações de uma tela para outra (de uma Activity para outra) através de objetos da classe Intent.\nAssinale",
+        "answers": [
+          {
+            "title": "se somente a alternativa II estiver correta"
+          },
+          {
+            "title": "se todas as alternativas estiverem corretas.",
+            "isRight": true
+          },
+          {
+            "title": "se somente a alternativa I estiver correta."
+          },
+          {
+            "title": "se nenhuma das alternativas estiver correta."
+          }
+        ]
+      },
+      {
+        "title": "O design responsivo busca melhorar a experiência dos usuários no uso da internet pa ra dispositivos diversos como PC, smartphones, tablets, geladeiras, banheiras e qualquer dispositivo que acesse a internet. Acerca das medidas escaláveis utilizadas no design responsivo, é correto afirmar:\n",
+        "answers": [
+          {
+            "title": "o Ems (em) é uma unidade escalável, usada para dimensionar a fonte, devendo-se considerar que 1 em é igual ao tamanho atual da fonte do elemento-pai.",
+            "isRight": true
+          },
+          {
+            "title": "a porcentagem (%) é uma unidade de medida escalável que se baseia sempre no tamanho da fonte atual para calcular o seu percentual em qualquer contexto no qual for aplicada."
+          },
+          {
+            "title": "ponto (point) é uma unidade de medida escalável muito utilizada para CSS de impressão."
+          },
+          {
+            "title": "pixel (px) é uma unidade de medida escalável que baseia sempre o tamanho do pixel na resolução de tela."
+          }
+        ]
+      },
+      {
+        "title": "O desenvolvimento de aplicações hibrídas para dispositivos móveis está associado à capacidade de executar código HTML, CSS e JS dentro do escopo de uma aplicação mobile. Isso permite o desenvolvimento de uma aplicação WEB que irá executar dentro de uma aplicação móvel. Para que isso funcione, Sistemas Operacionais para dispositivos móveis disponibilizam uma API que possui um componente denominado\n",
+        "answers": [
+          {
+            "title": "UIView."
+          },
+          {
+            "title": "WebView.",
+            "isRight": true
+          },
+          {
+            "title": "Blink."
+          },
+          {
+            "title": "Cordova."
+          }
+        ]
+      },
+      {
+        "title": "Considerando o ambiente de desenvolvimento Android Studio, assinale a alternativa que apresenta apenas linguagens válidas ao adicionar uma nova activity ao projeto.\n",
+        "answers": [
+          {
+            "title": "Java e Swift."
+          },
+          {
+            "title": "JavaScript e Python."
+          },
+          {
+            "title": "C# e PHP."
+          },
+          {
+            "title": "Java e Kotlin.",
+            "isRight": true
+          }
+        ]
+      },
+      {
+        "title": "Considerando os aspectos básicos de um projeto Android, assinale a alternativa correta.\n",
+        "answers": [
+          {
+            "title": "Activities representam um conjunto compartilhado de dados."
+          },
+          {
+            "title": "Um objeto intent explícito declara uma ação geral que permite que outro aplicativo o processe."
+          },
+          {
+            "title": "Content Providers representam uma tela com uma interface de usuário."
+          },
+          {
+            "title": "Broadcast Receivers são componentes que respondem a anúncios de transmissão por todo sistema.",
+            "isRight": true
+          }
+        ]
+      },
+      {
+        "title": "Há quatro tipos de componentes em aplicativos Android: receptores de transmissão por broadcast, provedores de conteúdo, serviços e atividades. O método normalmente gerado automaticamente quando se cria o projeto do aplicativo e que é chamado pelo sistema quando uma atividade (Activity) é iniciada é o\n",
+        "answers": [
+          {
+            "title": "onCreate.",
+            "isRight": true
+          },
+          {
+            "title": "onStartInstance."
+          },
+          {
+            "title": "Main"
+          },
+          {
+            "title": "Provider"
+          }
+        ]
+      },
+      {
+        "title": "Há quatro tipos de componentes em aplicativos Android: receptores de transmissão por broadcast, provedores de conteúdo, serviços e atividades. O método normalmente gerado automaticamente quando se cria o projeto do aplicativo e que é chamado pelo sistema quando uma atividade (Activity) é iniciada é o",
+        "answers": [
+          {
+            "title": "onRestart()"
+          },
+          {
+            "title": "onInit()"
+          },
+          {
+            "title": "onStart()"
+          },
+          {
+            "title": "onCreate()",
+            "isRight": true
+          }
+        ]
+      },
+      {
+        "title": "Considerando as linguagens de programação mobile, qual das dispostas a seguir foi criada pela Apple e pode ser utilizada para o desenvolvimento das suas aplicações?",
+        "answers": [
+          {
+            "title": "Kotlin"
+          },
+          {
+            "title": "Flutter"
+          },
+          {
+            "title": "Python"
+          },
+          {
+            "title": "Swift",
+            "isRight": true
+          }
+        ]
+      },
+      {
+        "title": "Qual dessas opções não é uma biblioteca de gerencimento de estados?",
+        "answers": [
+          {
+            "title": "Mobx"
+          },
+          {
+            "title": "Provider"
+          },
+          {
+            "title": "Locale",
+            "isRight": true
+          },
+          {
+            "title": "Bloc"
+          }
+        ]
+      }
+    ]
+  }
 ]
