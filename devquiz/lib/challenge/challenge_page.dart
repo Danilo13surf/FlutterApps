@@ -76,7 +76,6 @@ class _ChallengePageState extends State<ChallengePage> {
       body: Container(
         child: PageView(
           scrollDirection: Axis.horizontal,
-          physics: NeverScrollableScrollPhysics(),
           controller: pageController,
           children: widget.questions
               .map(
@@ -109,7 +108,7 @@ class _ChallengePageState extends State<ChallengePage> {
                     child: NextButtonWidget.green(
                       label: "Confirmar",
                       onTap: () {
-                        if ( controller.qtdAnwserRight >= 7) {
+                        if (controller.qtdAnwserRight >= 7) {
                           Navigator.pushReplacement(
                             context,
                             MaterialPageRoute(

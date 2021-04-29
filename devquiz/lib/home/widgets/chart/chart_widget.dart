@@ -20,7 +20,7 @@ class _ChartWidgetState extends State<ChartWidget>
 
   void _initAnimation() {
     _controller =
-        AnimationController(vsync: this, duration: Duration(seconds: 3));
+        AnimationController(vsync: this, duration: Duration(seconds: 5));
     _animation =
         Tween<double>(begin: 0.0, end: widget.percent).animate(_controller);
   }
