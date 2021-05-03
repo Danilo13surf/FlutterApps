@@ -73,18 +73,21 @@ class _ChallengePageState extends State<ChallengePage> {
           ),
         ),
       ),
-      body: Container(
-        child: PageView(
-          scrollDirection: Axis.horizontal,
-          controller: pageController,
-          children: widget.questions
-              .map(
-                (e) => QuizWidget(
-                  question: e,
-                  onSelected: onSelected,
-                ),
-              )
-              .toList(),
+      body: Padding(
+        padding: const EdgeInsets.all(7.0),
+        child: Container(
+          child: PageView(
+            scrollDirection: Axis.horizontal,
+            controller: pageController,
+            children: widget.questions
+                .map(
+                  (e) => QuizWidget(
+                    question: e,
+                    onSelected: onSelected,
+                  ),
+                )
+                .toList(),
+          ),
         ),
       ),
       bottomNavigationBar: SafeArea(

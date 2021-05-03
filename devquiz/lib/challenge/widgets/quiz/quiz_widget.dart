@@ -23,14 +23,14 @@ class _QuizWidgetState extends State<QuizWidget> {
       child: Column(
         children: [
           SizedBox(
-            height: 24,
+            height: 9,
           ),
           Text(
             widget.question.title,
             style: AppTextStyles.heading,
           ),
           SizedBox(
-            height: 24,
+            height: 9,
           ),
           for (var i = 0; i < widget.question.answers.length; i++)
             AnswerWidget(
