@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1083738034595",
+    "project_id": "chatonline-3013d",
+    "storage_bucket": "chatonline-3013d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083738034595:android:a17530ad9cca3c22608a16",
+        "android_client_info": {
+          "package_name": "com.example.chat_online"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083738034595-9uk0bjuoqhkj4lvln7haq9em76a8mjg5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chat_online",
+            "certificate_hash": "ec385865d4021d76e39195e9271466912b6bd32c"
+          }
+        },
+        {
+          "client_id": "1083738034595-o0abfa2939bihq866tfr217e7vldvlqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNvdncKvSyu2AtgOnVf6v8NzZI-6HyOjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083738034595-o0abfa2939bihq866tfr217e7vldvlqv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
