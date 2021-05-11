@@ -6,8 +6,7 @@ import 'package:newtopbytebank/models/transactions.dart';
 import '../webclient.dart';
 
 final url = Uri.parse(
-    'https://byteban-aa38b-default-rtdb.firebaseio.com/transactions.json?print=pretty');
-    // 'https://byteban-aa38b-default-rtdb.firebaseio.com/transactions.json');
+    'https://AQUI O FIRE BASE/transactions.json?print=pretty');
 
 class TransactionWebClient {
   Future<List<Transactions>> findAll() async {
